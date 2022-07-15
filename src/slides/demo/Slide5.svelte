@@ -11,8 +11,9 @@
         </p>
     </div>
 </div>
+
 <style>
-    .card-large{
+    .card-large {
         position: absolute;
         margin: 1.25rem;
         padding: 1.25rem;
@@ -20,10 +21,9 @@
         border-radius: 0.5rem;
         position: relative;
         opacity: 0.9;
-
     }
     @media (min-width: 640px) {
-        .card{
+        .card {
             padding: 2.5rem;
         }
     }
@@ -31,7 +31,7 @@
         .card {
             width: 50%;
         }
-        }
+    }
     @media (min-width: 1024px) {
         .card {
             width: 33.3333333333%;

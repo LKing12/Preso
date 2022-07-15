@@ -7,15 +7,12 @@
         <p class="label">Design</p>
         <h1 class="text-left">Create impactful presentations with animations.</h1>
         <p class="major">
-            Supports CSS animation out of the box with <a
-                href="https://animate.style/">animate.css</a
-            >.
+            Supports CSS animation out of the box with <a href="https://animate.style/">animate.css</a>.
         </p>
 
         <p class="major">
             Use animation freely <br />
             Just add a class <br />
-
         </p>
     </div>
 </div>
