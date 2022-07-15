@@ -83,14 +83,17 @@
 <div class:hidden bind:this={Slide} class="slide">
     <slot />
 </div>
+
 <style>
-    .slide{
+    .hidden {
+        display: none;
+    }
+    .slide {
         overflow-x: hidden;
     }
     @media (min-width: 1024px) {
-    .slide {
-        overflow-y: hidden;
+        .slide {
+            overflow-y: hidden;
+        }
     }
-    }
-
 </style>

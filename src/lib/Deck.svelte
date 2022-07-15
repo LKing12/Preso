@@ -57,12 +57,12 @@
             matchInterim: true,
         },
         {
-            command: ['furthermore','what\'s more','additionally'],
+            command: ['furthermore', "what's more", 'additionally'],
             callback: () => nextStep(),
             isFuzzyMatch: true,
             fuzzyMatchingThreshold: 0.8,
             matchInterim: true,
-        }
+        },
     ];
     const { transcriptStore, listening, browserSupportsSpeechRecognition, resetTranscript } = useSpeechRecognition({
         commands,
@@ -196,7 +196,7 @@
     //     ArrowRight: 'nextStep()',
     // };
     function keyDown(detail) {
-        switch(detail){
+        switch (detail) {
             case 'Control-Alt-t':
             case 'Control-Alt-T':
             case 'Control-Alt-þ':
@@ -221,7 +221,7 @@
                 break;
             case 'ArrowRight':
                 nextStep();
-                break;         
+                break;
         }
 
         // if (keyCommands[detail] != undefined) {
@@ -244,7 +244,8 @@
     }}
 />
 <div bind:this={component}>
-    <div style="min-height: 100vh;min-width:100%;"
+    <div
+        style="min-height: 100vh;min-width:100%;"
         use:tap={{ timeframe: 500 }}
         on:tap={handleTap}
         bind:clientWidth={ScreenWidth}

@@ -17,18 +17,31 @@
             <br />
         </p>
         <div>
-            <div class="flex-row m-auto" style="justify-content:space-evenly;max-width:91.6666666667%;vertical-align: text-top;">
-                <div class="animate__animated op0 start-1:op100 start-1:animate__fadeInBottomRight" style ="padding-top: 2.5rem;padding-bottom: 2.5rem;">
-                    <p class="thought">Go to the next step with a joining term: "furthermore","what's more","additionally"</p>
+            <div
+                class="flex-row m-auto"
+                style="justify-content:space-evenly;max-width:91.6666666667%;vertical-align: text-top;"
+            >
+                <div
+                    class="animate__animated op0 start-1:op100 start-1:animate__fadeInBottomRight"
+                    style="padding-top: 2.5rem;padding-bottom: 2.5rem;"
+                >
+                    <p class="thought">
+                        Go to the next step with a joining term: "furthermore","what's more","additionally"
+                    </p>
                 </div>
-                <div class="animate__animated op0 start-2:op100 start-2:animate__fadeInTopRight" style ="padding-top: 2.5rem;padding-bottom: 2.5rem;">
+                <div
+                    class="animate__animated op0 start-2:op100 start-2:animate__fadeInTopRight"
+                    style="padding-top: 2.5rem;padding-bottom: 2.5rem;"
+                >
                     <p class="thought">Say "Next Slide"</p>
                 </div>
-                <div class="animate__animated op0 start-3:op100 start-3:animate__fadeInBottomRight" style ="padding-top: 2.5rem;padding-bottom: 2.5rem;">
+                <div
+                    class="animate__animated op0 start-3:op100 start-3:animate__fadeInBottomRight"
+                    style="padding-top: 2.5rem;padding-bottom: 2.5rem;"
+                >
                     <p class="thought">Say "Previous Slide"</p>
                 </div>
             </div>
         </div>
-        
     </div>
 </div>

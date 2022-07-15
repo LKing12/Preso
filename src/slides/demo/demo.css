@@ -29,7 +29,6 @@ kbd:hover {
     font-weight: 300;
     margin-top: 1rem;
     line-height: 1.625;
-
 }
 .thought:before,
 .thought:after {
@@ -99,6 +98,16 @@ h2 {
 .slide-bar.h1 {
     text-align: left;
 }
+.bar-image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .bar-image {
+        flex-wrap: nowrap;
+    }
+}
 .major {
     font-weight: 350;
     font-size: 1.25rem;
@@ -133,89 +142,113 @@ h2 {
         width: 44.4444444444%;
     }
 }
-a{
-    color: rgba(37, 99, 235,1);
+a {
+    color: rgba(37, 99, 235, 1);
 }
 a:hover {
     color: rgba(82, 82, 82, 1);
-  }
-.large{
-font-size: 1.125rem;
-line-height: 1.75rem;
-margin-top: 2rem;
-line-height: 1.625;
-font-weight: 600;
 }
-.m-auto{
-margin-left: auto;
-margin-right: auto;
+.large {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 2rem;
+    line-height: 1.625;
+    font-weight: 600;
 }
-.flex-col{
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-col {
     display: flex;
     flex-direction: column;
 }
-.flex-row{
+.flex-row {
     display: flex;
     flex-direction: row;
 }
-.main{
-    display:flex;
+.main {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     max-width: 91.6666666667%;
     padding-top: 5rem;
-    height:50%;
+    height: 50%;
 }
 .rounded-20 {
-    border-radius: 5rem;}
+    border-radius: 5rem;
+}
 
-.box{
+.box {
     max-width: 91.6666666667%;
 }
 @media (min-width: 1024px) {
     .box {
-      width: 45.8333333333%;
+        width: 45.8333333333%;
     }
-  }
-  .major-box{
-    width: 95.8333333333%;;
+}
+.major-box {
+    width: 95.8333333333%;
 }
 @media (min-width: 1024px) {
     .major-box {
-      width: 45.8333333333%;
+        width: 45.8333333333%;
     }
-  }
-  .text-left {
+}
+.text-left {
     text-align: left;
-  }
-.marker{
+}
+.marker {
     display: flex;
     width: 83.3333333333%;
     align-items: center;
-    background-color: rgba(243, 244, 246,1);
+    background-color: rgba(243, 244, 246, 1);
     font-size: 1.875rem;
     line-height: 2.25rem;
     border-radius: 0.5rem;
-    margin-right:0.75rem;
-    margin-left:0.75rem;
-    margin-top:0px;
-    margin-bottom:0;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    margin-top: 0px;
+    margin-bottom: 0;
     padding: 1.25rem;
     margin: 0.75rem;
     text-align: center;
-    
-
 }
 @media (min-width: 768px) {
     .marker {
-      width: 33.3333333333%;
+        width: 33.3333333333%;
     }
-  }
+}
 
-marker:before, :after {
+marker:before,
+:after {
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
     border-color: currentColor;
+}
+.large-box {
+    flex: 1 1 auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(229, 231, 235, 1);
+    padding: 1.5rem;
+    margin: 1rem;
+    margin-left: 0rem;
+    border-radius: 0.5rem;
+}
+@media (min-width: 1280px) {
+    .large-box {
+        width: 25%;
+    }
+}
+.op0 {
+    opacity: 0;
+}
+.op100 {
+    opacity: 1;
+}
+.bg-gray-100 {
+    background-color: rgba(243, 244, 246, 1);
 }

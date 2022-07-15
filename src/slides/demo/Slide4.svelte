@@ -10,14 +10,17 @@
         </p>
     </div>
     <div class="box">
-        <div class="flex flex-wrap justify-evenly items-top mx-auto max-w-22/24">
+        <div
+            class="m-auto"
+            style="display:flex; flex-wrap: wrap;justify-content: space-evenly;vertical-align: text-top;max-width: 91.6666666667%;"
+        >
             <div class="major-box card animate__animated start-1:animate__pulse start-1:bg-gray-100">
-                <div class="i-openmoji-magnifying-glass-tilted-right" style="font-size: 3rem;line-height: 1;"/>
+                <div class="i-openmoji-magnifying-glass-tilted-right" style="font-size: 3rem;line-height: 1;" />
                 <h2>Find the HTML you want to animate.</h2>
                 <p class="minor">Ctrl-F is your friend.</p>
             </div>
             <div class="major-box card animate__animated start-2:animate__pulse start-2:bg-gray-100">
-                <div class="i-openmoji-rocket" style="font-size: 3rem;line-height: 1;"/>
+                <div class="i-openmoji-rocket" style="font-size: 3rem;line-height: 1;" />
                 <h2>You can add class on the fly.</h2>
                 <p class="minor">
                     To turn the text in red after 1 transition, use the class `start-1:text-red`. You can use
@@ -30,7 +33,7 @@
                 <p class="minor">No magic, you know exactly what is going on at each transition.</p>
             </div>
             <div class="major-box card animate__animated start-4:animate__pulse start-4:bg-gray-100">
-                <div class="i-openmoji-delete" style="font-size: 3rem;line-height: 1;"/>
+                <div class="i-openmoji-delete" style="font-size: 3rem;line-height: 1;" />
                 <h2>You can also remove classes.</h2>
                 <p class="minor">
                     With the `end-1:...` you can remove classes from your HTML. This is very useful when you are working
