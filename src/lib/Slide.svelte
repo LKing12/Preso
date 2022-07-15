@@ -84,6 +84,9 @@
     <slot />
 </div>
 <style>
+    .hidden {
+        display: none;
+    }
     .slide{
         overflow-x: hidden;
     }

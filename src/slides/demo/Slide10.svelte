@@ -1,6 +1,6 @@
 <div class="flex-col md:w-7/10 m-auto" style="min-height: 100vh; text-align:center;justify-content:center;align-items:center;">
     <div
-        class="flex md:flex-nowrap flex-wrap slide-bar items-center  animate__animated animate__slideInRight animate__slow"
+        class="slide-bar bar-image animate__animated animate__slideInRight animate__slow" 
     >
         <img src="12.svg" alt="figure-1" class="w-70 mx-auto" />
         <div class="flex flex-col">
@@ -18,7 +18,7 @@
     </div>
 
     <div
-        class="flex  md:flex-nowrap flex-wrap-reverse slide-bar items-center animate__animated animate__slideInLeft animate__slow"
+        class="bar-image slide-bar animate__animated animate__slideInLeft animate__slow"
     >
         <div class="flex flex-col">
             <h2>Preso comes with elegant templates.</h2>
@@ -32,7 +32,7 @@
         <img src="14.svg" alt="figure-1" class="w-70 mx-auto" />
     </div>
     <div
-        class="flex md:flex-nowrap flex-wrap slide-bar items-center animate__animated animate__slideInRight animate__slow"
+        class="bar-image slide-bar animate__animated animate__slideInRight animate__slow"
     >
         <img src="16.svg" alt="figure-1" class="w-70 mx-auto" />
         <div class="flex flex-col">
@@ -41,7 +41,7 @@
                 Display your presentations on mobile or tablet. It is completely useless, but nice to have.
             </p>
             <a
-                href="https://github.com/LKing12/Preso"
+                href="https://preso-svelte.vercel.app/"
                 class="large"
                 >Check the code >></a
             >

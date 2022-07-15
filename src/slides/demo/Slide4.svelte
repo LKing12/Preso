@@ -10,7 +10,7 @@
         </p>
     </div>
     <div class="box">
-        <div class="flex flex-wrap justify-evenly items-top mx-auto max-w-22/24">
+        <div class="m-auto" style="display:flex; flex-wrap: wrap;justify-content: space-evenly;vertical-align: text-top;max-width: 91.6666666667%;">
             <div class="major-box card animate__animated start-1:animate__pulse start-1:bg-gray-100">
                 <div class="i-openmoji-magnifying-glass-tilted-right" style="font-size: 3rem;line-height: 1;"/>
                 <h2>Find the HTML you want to animate.</h2>

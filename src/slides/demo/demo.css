@@ -99,6 +99,17 @@ h2 {
 .slide-bar.h1 {
     text-align: left;
 }
+.bar-image{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+@media (min-width: 768px) {
+    .bar-image {
+      flex-wrap: nowrap;
+    }
+  }
 .major {
     font-weight: 350;
     font-size: 1.25rem;
@@ -219,3 +230,28 @@ marker:before, :after {
     border-style: solid;
     border-color: currentColor;
 }
+.large-box{
+    flex: 1 1 auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(229, 231, 235,1);
+    padding: 1.5rem;
+    margin: 1rem;
+    margin-left: 0rem;
+    border-radius: 0.5rem;
+
+}
+@media (min-width: 1280px) {
+    .large-box {
+      width: 25%;
+    }
+  }
+  .op0 {
+    opacity: 0;
+  }
+  .op100 {
+    opacity: 1;
+  }
+  .bg-gray-100 {
+    background-color: rgba(243, 244, 246, 1);
+  }
