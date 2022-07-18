@@ -5,8 +5,13 @@
         <meta name="description" content="A svelte based alternative to powerpoint" />
         <!-- <link rel="icon" href="%sveltekit.assets%/favicon.png" /> -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="white"/>
         <title>Preso Demo</title>
         <link rel="manifest" crossorigin="use-credentials" href="manifest.json"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+        <meta name="apple-mobile-web-app-title" content="Preso" />
+        <link rel="apple-touch-icon" href="maskable_icon_x128.png" />
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
         <link rel="icon" type="image/png" href="Preso-logos_transparent.png" />
         %sveltekit.head%
@@ -20,7 +25,7 @@
                   console.log("Service worker registered.", reg);
                 });
               });
-            }
-          </script> -->
+            } -->
+          </script>
     </body>
 </html>
