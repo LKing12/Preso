@@ -140,3 +140,5 @@ TODO: add vercel deployment commands
 ### Code Formatting
 
 To run Prettier, enter `npm run format`.
+
+### GitHub Actions
