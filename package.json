@@ -40,6 +40,10 @@
     "svelte-notifications": "^0.9.95",
     "svelte-preprocess": "^4.10.2",
     "unocss": "^0.22.7",
-    "vizzu": "^0.4.3"
+    "vizzu": "^0.4.3",
+    "workbox": "^0.0.0",
+    "workbox-precaching": "^6.5.3",
+    "workbox-routing": "^6.5.3",
+    "workbox-strategies": "^6.5.3"
   }
 }

@@ -109,6 +109,9 @@ Create a .env file in the root directory, to hold your speechly app id.
 VITE_SPEECHLY_APP_ID=#APPID#
 ```
 
+### PWA
+
+Preso is a PWA, the `service-worker.js` and `manifest.json` files can be found in the static directory, they are loaded in the `_layout.svelte` file
 ### Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:

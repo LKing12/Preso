@@ -1,0 +1,26 @@
+{
+    "short_name": "Preso",
+    "name": "Preso",
+    "start_url": "/app.html",
+    "icons": [
+      {
+        "src": "Preso-logos_transparent.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "background_color": "white",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "white",
+    "shortcuts": [
+      {
+        "name": "Demo Presentation",
+        "short_name": "Demo",
+        "description": "A Demo presentation of preso's functionality",
+        "url": "/",
+        "icons": [{ "src": "Preso-logos_transparent.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "A svelte based alternative to powerpoint"
+}
