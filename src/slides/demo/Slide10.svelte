@@ -27,7 +27,7 @@
     <div class="bar-image slide-bar animate__animated animate__slideInRight animate__slow">
         <img src="16.svg" alt="figure-1" class="w-70 mx-auto" />
         <div class="flex flex-col">
-            <h2>Svelte-Slides is fluid</h2>
+            <h2>Preso is fluid</h2>
             <p class="major">
                 Display your presentations on mobile or tablet. It is completely useless, but nice to have.
             </p>

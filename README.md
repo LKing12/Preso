@@ -142,3 +142,14 @@ TODO: add vercel deployment commands
 To run Prettier, enter `npm run format`.
 
 ### GitHub Actions
+### Common issues 
+The PWA can cause issues when developing, if you get
+```
+> listen EACCES: permission denied 127.0.0.1:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1405:21)
+    at listenInCluster (node:net:1470:12)
+    at doListen (node:net:1609:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+```
+
+Restart the Host Network Service (windows specific)
